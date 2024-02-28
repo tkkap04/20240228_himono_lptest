@@ -80,23 +80,24 @@ header{
     margin: 0 auto 5vw;
     font-size: 1vw;
 }
-.news__table {
+.news__content{
     width: 50vw;
     border-collapse: separate;
     border-top: 2px solid #777;
     border-bottom: 2px solid #777;
     padding: 2vw 0;
 }
-.news__row th, td{
+.news__list{
     border-bottom: 1px solid #ddd;
+    list-style: none;
 }
 .news__table-date, .news__table-text{
     color: #777;
     display: inline-block;
-    padding: 1vw;
+    padding: 1vw 1vw 1vw 0;
 }
 .news__table-date{
-    width: 20%;
+    width: 10%;
 }
 .news__table-logo{
     font-size: 1vw;
@@ -105,7 +106,7 @@ header{
     display: inline-block;
     padding: 0.3vw 1vw;
     border-radius: 20px;
-    margin: 0 2vw;
+    margin: 0 1vw;
     text-align: center;
 }
 .news__table-text{
